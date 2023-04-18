@@ -3,16 +3,9 @@
 	src: url(/assets/genshin-font.ttf);
 }
 
-body {
+body{
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
     background-color: rgb(248, 249, 222);
-}
-
-.navBar{
-    width: 100vw;
-    background-color: snow;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    height: 100px;
 }
