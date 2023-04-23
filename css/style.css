@@ -9,3 +9,35 @@ body{
 	font-family: Arial, sans-serif;
     background-color: rgb(248, 249, 222);
 }
+
+.transaction-information{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.ti-left{
+	display: flex;
+	margin-left: 50px;
+}
+.ti-left a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+.ti-right{
+	display: flex;
+	margin-right: 20px;
+}
+.ti-right a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
