@@ -4,7 +4,7 @@
 }
 
 .navBar{
-    width: 100vw;
+    width: 100%;
     background-color: snow;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     height: 12vh;
