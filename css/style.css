@@ -131,6 +131,131 @@ body{
 	/* padding: 20px; */
 	/* margin: 0px 25px; */
 }
+
+.care-page{
+	margin: 15% auto;
+	position: absolute;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	/* background-color: black; */
+	align-items: center;
+	/* justify-items: center; */
+}
+
+.icon-1{
+	margin: 10px;
+	width: 15%;
+	padding: 20px 20px;
+	/* background-color: red; */
+	display: block;
+	align-items: center;
+	background: white;
+	border-radius: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-1 img{
+	width: 100px;
+	height: 100px;
+}
+
+figure{
+	display: block;
+	text-align: center;
+}
+
+figcaption{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.icon-2{
+	margin: 10px;
+	width: 15%;
+	padding: 20px 20px;
+	/* background-color: green; */
+	display: block;
+	align-items: center;
+	background: white;
+	border-radius: 15px;
+	
+}
+
+.icon-2 img{
+	width: 100px;
+	height: 100px;
+	
+}
+
+.icon-3{
+	margin: 10px;
+	width: 15%;
+	padding: 20px 20px;
+	/* background-color: blue; */
+	display: block;
+	align-items: center;
+	background: white;
+	border-radius: 15px;
+	
+}
+
+.icon-3 img{
+	width: 100px;
+	height: 100px;
+}
+
+/* 
+.icon{
+	width: 20%;
+	padding: 5px 5px;
+	height: max-content;
+	background-color: wheat;
+	display: flex;
+	align-items: center;
+	
+}
+
+figure{
+	width: 10%;
+	border-color: white;
+	border-radius: 15px;
+	margin-top: 0;
+	text-align: center;
+	height: max-content;
+}
+
+figcaption{
+	margin-top: 20px;
+	display: flex;
+	margin-left: 40%;
+	justify-content: center;
+	/* border: solid rebeccapurple; */
+	/* font-weight: bold;
+} */
+/* 
+.email{
+	width: 20%;
+	padding: 20px 20px;
+	height: max-content;
+	background-color: pink;
+	display: flex;
+	align-items: center;
+}
+
+.chat{
+	width: 20%;
+	padding: 20px 20px;
+	height: max-content;
+	background-color: blue; */
+	/* display: flex;
+	align-items: center; */
+/* } */ */
+
+
+
 .pt-product-img{
 	width: 100%;
 	height: max-content;
