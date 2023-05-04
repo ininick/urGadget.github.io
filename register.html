@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login with Google</title>
+	<link rel="stylesheet" type="text/css" href="../urGadget.github.io-main/css/style.css">
+    <link rel="stylesheet" href="../urGadget.github.io-main/css/navigation.css">
+    <link rel="stylesheet" href="../urGadget.github.io-main/css/stylelogin.css">
+	<meta name="google-signin-client_id" content="YOUR_CLIENT_ID">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script>
+		function onSignIn(googleUser) {
+			var profile = googleUser.getBasicProfile();
+			console.log('ID: ' + profile.getId());
+			console.log('Name: ' + profile.getName());
+			console.log('Image URL: ' + profile.getImageUrl());
+			console.log('Email: ' + profile.getEmail());
+		}
+	</script>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="navLogo">
+            <a href="index.html">
+                <img src="css/assets/Logo/UrGadget.png" alt="Logo UrGadget">
+            </a>
+        </div>
+    </nav>
+	<div class="login-box">
+		<h2>Login with Google</h2>
+		<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	</div>
+</body>
+</html>
