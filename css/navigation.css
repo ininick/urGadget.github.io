@@ -93,6 +93,9 @@
     display: flex;
     /* background-color: aliceblue; */
 }
+.navItems a:hover{
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.3);
+}
 .navItems a li{
     padding-top: 5px;
     align-items: center;

@@ -96,6 +96,36 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     background-color: snow;
 }
+
+.stock-wrapper{
+    height: max-content;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 12px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+    margin-left: 100px;
+}
+.cart-nav{
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.3);
+}
+.stock-wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+.stock-wrapper span.num{
+    font-size: 1em;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+  pointer-events: none;
+}
+
 .ct-1{
     padding: 10px 20px;
     background-color: rgb(210, 210, 210);
