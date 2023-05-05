@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <nav class="navBar">
+        <div class="navLogo">
+            <a href="index.html">
+                <img src="assets/Logo/UrGadget.png" alt="Logo UrGadget">
+            </a>
+        </div>
+        <div class="navItems">
+            <a href="">
+                <img src="assets/Icons/message.png" class="message-icon" alt="">
+                <li>Message</li>
+            </a> 
+            <a href="cart.html">
+                <img src="assets/Icons/cart.png" class="cart-icon" alt="">
+               <li>Cart</li>
+            </a> 
+            <a href="signin.html">
+                <img src="assets/Icons/signin.png" class="signin-icon" alt="">
+                <li>Sign in</li>
+            </a>
+        </div>
+    </nav>
+    <div class="transaction-information">
+        <div class="ti-left">
+            <a href="index.html">
+                <h5>Home</h5>
+            </a>
+            <a href="">
+                <h5>></h5>
+            </a>
+            <a href="">
+                <h5>Cart</h5>
+            </a>
+        </div>
+        <div class="ti-right">
+            <a href="index.html">
+                <h5>Back</h5>
+            </a>
+        </div>
+    </div>
+    <div class="cart-container">
+        <div class="title-keranjang">Keranjang</div>
+        <div class="cart-info">
+            <div class="cart-list">
+                <div class="select-all">
+                    <input type="checkbox" name="select-all" id="select-all-cb">
+                    <h4 id="selectall-label">Pilih Semua</h4>
+                    <h4 id="selectall-delete">Hapus</h4>
+                </div>
+                <div class="pembatas"></div>
+                <div class="product-cart">
+                    <div class="checkbox-prod">
+                        <input type="checkbox" name="select-all" id="select-all-cb">
+                        <h4 id="checkbox-prodlabel">Headset Bang Olufsen Official</h4>
+                    </div>
+                    <div class="product">
+                        <input type="checkbox" name="prod-cb" id="">
+                        <img class="image" src="assets/image/headphone.png" alt="">
+                        <div class="prod-desc">
+                            <p class="prod-detail">Headset Bluetooth Bang Olufsen</p>
+                            <p class="prod-detail">Hitam</p>
+                            <div class="total-prod">
+                                <p class="prod-detail">$ 1234.00</p>
+                                <p class="prod-detail">- 1 +</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="pembatas"></div>
+                <div class="product-cart">
+                    <div class="checkbox-prod">
+                        <input type="checkbox" name="select-all" id="select-all-cb">
+                        <h4 id="checkbox-prodlabel">Headset Bang Olufsen Official</h4>
+                    </div>
+                    <div class="product">
+                        <input type="checkbox" name="prod-cb" id="">
+                        <img class="image" src="assets/image/headphone.png" alt="">
+                        <div class="prod-desc">
+                            <p class="prod-detail">Headset Bluetooth Bang Olufsen</p>
+                            <p class="prod-detail">Hitam</p>
+                            <div class="total-prod">
+                                <p class="prod-detail">$ 1234.00</p>
+                                <p class="prod-detail">- 1 +</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="pembatas"></div>
+            </div>
+            <div class="cart-total">
+                <div class="ct-1">
+                    Pilih Promo Yang Tersedia
+                </div>
+                <div class="ringkasan-harga">
+                    <h3>Ringkasan Belanja</h3>
+                    <div class="total-harga">
+                        <p>Total harga</p>
+                        <p>$ 0</p>
+                    </div>
+
+                </div>
+                <button class="buy-btn">Buy</button>
+            </div>
+        </div>
+    </div>
+    <div class="rec-container">
+        <div class="title-rec">Recommendation</div>
+        <div class="prodrec-container">
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="pembatas"></div>
+    </div>
+    <div class="anotherprod-container">
+        <div class="anotherprod-rec">Yang Lain Dari Toko Ini</div>
+        <div class="pt-product-1">
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/laptop.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Laptop HP Elitebook 845</h5>
+                        <h6>$ 411.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/laptop.png"alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Laptop HP Elitebook 845</h5>
+                        <h6>$ 411.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/laptop.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Laptop HP Elitebook 845</h5>
+                        <h6>$ 411.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/laptop.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Laptop HP Elitebook 845</h5>
+                        <h6>$ 411.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-sta  r checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="pt-product-1">
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pt-product">
+                <div class="pt-product-img">
+                    <img src="assets/image/camera.png" alt="">
+                </div>
+                <div class="pt-product-desc">
+                    <div class="pt-product-name">
+                        <h5>Smart Camera</h5>
+                        <h6>$ 111.99</h6>
+                    </div>
+                    <div class="pt-product-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="pt-product-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
