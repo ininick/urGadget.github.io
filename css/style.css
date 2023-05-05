@@ -75,6 +75,9 @@ body{
 	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 15px;
 }
+.plp:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+}
 .plp h4{
 	margin: -15px 0px 20px 25px;
 	font-size: 13px;
@@ -113,6 +116,16 @@ body{
 /* .pt-title h1{
 	width: 100%;
 } */
+
+.icon-1:hover{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.icon-2:hover{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.icon-3:hover{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
 
 .pt-product-1{
