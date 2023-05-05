@@ -7,7 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/product.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
 </head>
 <body>
     <nav class="navBar">
@@ -20,34 +22,34 @@
             <form action="" class="search-form">
                 <input type="text" placeholder="   Search in UrGadget" id="searchbox">
                 <button type="submit" class="submit-button"><img src="assets/Icons/search.png" class="submit-search"
+                    alt=""></button>
+                    <button type="submit" class="filter-button"><img src="assets/Icons/filter.png" class="filter-search"
                         alt=""></button>
-                <button type="submit" class="filter-button"><img src="assets/Icons/filter.png" class="filter-search"
-                        alt=""></button>
-            </form>
-    
-        </div>
-        <div class="navItems">
-            <a href="">
-                <img src="assets/Icons/message.png" class="message-icon" alt="">
-                <li>Message</li>
-            </a>
-            <a href="cart.html">
-                <img src="assets/Icons/cart.png" class="cart-icon" alt="">
-                <li>Cart</li>
-            </a>
-            <a href="signin.html">
-                <img src="assets/Icons/signin.png" class="signin-icon" alt="">
-                <li>Sign in</li>
-            </a>
-        </div>
-    </nav>
-    <div class="hisPos">
-        <ul>
-            <a href=""><li>Home</li></a>
-            <p>></p>
-            <a href=""><li>Accesories</li></a>
-            <p>></p>
-            <a href=""><li>Camera</li></a>
+                    </form>
+                    
+                </div>
+                <div class="navItems">
+                    <a href="">
+                        <img src="assets/Icons/message.png" class="message-icon" alt="">
+                        <li>Message</li>
+                    </a>
+                    <a href="cart.html">
+                        <img src="assets/Icons/cart.png" class="cart-icon" alt="">
+                        <li>Cart</li>
+                    </a>
+                    <a href="signin.html">
+                        <img src="assets/Icons/signin.png" class="signin-icon" alt="">
+                        <li>Sign in</li>
+                    </a>
+                </div>
+            </nav>
+            <div class="hisPos">
+                <ul>
+                    <a href=""><li>Home</li></a>
+                    <p>></p>
+                    <a href=""><li>Accesories</li></a>
+                    <p>></p>
+                    <a href=""><li>Camera</li></a>
             <p>></p>
             <a href=""><li>Xiaomi Camera</li></a>
             <p>></p>
@@ -99,15 +101,75 @@
                 <div class="cws">
                     <!-- chat wishlist share -->
                     <ul>
-                        <a href=""><li><i class='far fa-comments'></i> Chat</li></a>
-                        <a href=""><li>Wishlist</li></a>
-                        <a href=""><li>Share</li></a>
+                        <a href=""><li><span class="bi bi-chat"></span> Chat</li></a>
+                        <p> | </p>
+                        <a href=""><li><span class="bi bi-heart"></span> Wishlist</li></a>
+                        <p> | </p>
+                        <a href=""><li><span class="bi bi-share"></span> Share</li></a>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class="garis-pembatas"></div>
+    <div class="profile-penjual">
+        <div class="image-penjual">
+            <img src="assets/image/profile penjual.png" alt="">
+        </div>
+        <div class="desc-penjual">
+            <div class="nama-penjual">
+                <h1>Studio Ponsel</h1>
+                <img src="assets/Logo/verify.png" alt="">
+            </div>
+            <div class="lokasiOnline">
+                <h1 id="lokasi">Jakarta Pusat</h1>
+                <h1 id="online">Last Seen 3 hours ago</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="review-pembeli">
+        <h1>Diskusi Produk</h1>
+        <div class="kotak-review">
+            <div class="pembeli">
+                <div class="profile-pembeli">
+                    <div class="image-pembeli">
+                        <img src="assets/image/profile pembeli.png" alt="">
+                    </div>
+                    <div class="desc-pembeli">
+                        <div class="nama-pembeli">
+                            <h1>Fikri</h1>
+                        </div>
+                        <div class="last-seen-pembeli">
+                            <h2>last seen 2 hours ago</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="isi-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur reiciendis autem possimus sapiente unde est earum. Nostrum itaque eveniet aliquam sequi, laborum quo ducimus asperiores, perferendis saepe quam dolores?</p>
+                </div>
+            </div>
+
+            <div class="penjual">
+                <div class="profile-pembeli">
+                    <div class="image-pembeli">
+                        <img src="assets/image/profile penjual.png" alt="">
+                    </div>
+                    <div class="desc-pembeli">
+                        <div class="nama-pembeli">
+                            <h1>Studio Ponsel</h1>
+                        </div>
+                        <div class="last-seen-pembeli">
+                            <h1>Dibalas dalam 2 jam</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="isi-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum obcaecati, asperiores qui animi quaerat ducimus nobis modi quibusdam facilis est labore, consequuntur eaque voluptatum magnam neque quia accusamus totam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="JS/incrementButton.js"></script>
     <script src="JS/readMore.js"></script>
