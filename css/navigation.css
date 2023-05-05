@@ -112,3 +112,76 @@
     height: 20px;
     margin-right: 10px;
 }
+
+
+/************FOOTER**************/
+.footer{
+    height: 490px;
+    background-color: rgb(210, 210, 210);
+    display: flex;
+}
+.footer-1{
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 55px; 
+}
+.footer-2{
+    margin-top: 40px;
+    margin-right: 45px;
+}
+.footer-3{
+    margin-top: 40px;
+    margin-right: 45px;
+}
+.footer-4{
+    margin-top: 40px;
+    margin-right: 45px;
+}
+.foot-par{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px; 
+    padding: 2px;
+    opacity: 0.7;
+}
+.foot-par:hover{
+    opacity: 0.9;
+}
+.urgadget-care-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.UrGadget-section{
+    margin-bottom: 10px;
+}
+.jual-section{
+    margin-bottom: 10px;
+}
+.bantuan-section{
+    margin-bottom: 10px;
+}
+.footer-3{
+    display: flex;
+    flex-direction: column;
+}
+.google-play{
+    width: 250px;
+}
+.section-title{
+    font-weight: bold;
+    opacity: 1;
+}
+.section-title:hover{
+    -webkit-text-stroke: 1px rgba(187, 187, 187, 0.3);
+    opacity: 0.4;
+}
+.appstore{
+    margin-left: 13px;
+    width: 220px;
+}
+.media-fb{
+    width: 45px;
+}
+.media-ig{
+    width: 43px;
+}
