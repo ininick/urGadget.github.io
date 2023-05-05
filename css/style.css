@@ -114,6 +114,16 @@ body{
 	width: 100%;
 } */
 
+.icon-1:hover{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.icon-2:hover{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.icon-3:hover{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
 
 .pt-product-1{
 	display: flex;
