@@ -22,15 +22,15 @@
             </a>
         </div>
         <div class="navItems">
-            <a href="">
+            <a href="message.html">
                 <img src="assets/Icons/message.png" class="message-icon" alt="">
                 <li>Message</li>
             </a> 
-            <a href="cart.html">
+            <a class="cart-nav" href="cart.html">
                 <img src="assets/Icons/cart.png" class="cart-icon" alt="">
                <li>Cart</li>
             </a> 
-            <a href="signin.html">
+            <a href="register.html">
                 <img src="assets/Icons/signin.png" class="signin-icon" alt="">
                 <li>Sign in</li>
             </a>
@@ -77,7 +77,11 @@
                             <p class="prod-detail">Hitam</p>
                             <div class="total-prod">
                                 <p class="prod-detail">$ 1234.00</p>
-                                <p class="prod-detail">- 1 +</p>
+                                <div class="stock-wrapper">
+                                    <span class="minus">-</span>
+                                    <span class="num">01</span>
+                                    <span class="plus">+</span>
+                                </div>
                             </div>
                         </div>
 
@@ -97,7 +101,11 @@
                             <p class="prod-detail">Hitam</p>
                             <div class="total-prod">
                                 <p class="prod-detail">$ 1234.00</p>
-                                <p class="prod-detail">- 1 +</p>
+                                <div class="stock-wrapper">
+                                    <span class="minus">-</span>
+                                    <span class="num">01</span>
+                                    <span class="plus">+</span>
+                                </div>
                             </div>
                         </div>
                         
@@ -438,5 +446,6 @@
             </div>
         </div>
     </div>
+    <script src="JS/incrementButton.js"></script>
 </body>
 </html>
