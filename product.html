@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/product.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="navLogo">
+            <a href="index.html">
+                <img src="assets/Logo/UrGadget.png" alt="Logo UrGadget">
+            </a>
+        </div>
+        <div class="searchBar">
+            <form action="" class="search-form">
+                <input type="text" placeholder="   Search in UrGadget" id="searchbox">
+                <button type="submit" class="submit-button"><img src="assets/Icons/search.png" class="submit-search"
+                        alt=""></button>
+                <button type="submit" class="filter-button"><img src="assets/Icons/filter.png" class="filter-search"
+                        alt=""></button>
+            </form>
+    
+        </div>
+        <div class="navItems">
+            <a href="">
+                <img src="assets/Icons/message.png" class="message-icon" alt="">
+                <li>Message</li>
+            </a>
+            <a href="cart.html">
+                <img src="assets/Icons/cart.png" class="cart-icon" alt="">
+                <li>Cart</li>
+            </a>
+            <a href="signin.html">
+                <img src="assets/Icons/signin.png" class="signin-icon" alt="">
+                <li>Sign in</li>
+            </a>
+        </div>
+    </nav>
+    <div class="hisPos">
+        <ul>
+            <a href=""><li>Home</li></a>
+            <p>></p>
+            <a href=""><li>Accesories</li></a>
+            <p>></p>
+            <a href=""><li>Camera</li></a>
+            <p>></p>
+            <a href=""><li>Xiaomi Camera</li></a>
+            <p>></p>
+        </ul>
+    </div>
+    <div class="productAndBuy">
+        <div class="product-image">
+            <div class="product-image-box">
+                <img src="assets/image/camera.png" alt="">
+            </div>
+        </div>
+        <div class="product-desc">
+            <h1>Product name belongs here</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem
+            egestas vitae scel erisque enim ligula venenatis dolor. Maecenas nisl est,
+            ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum
+            nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec
+            vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+            tempor porta.<span id="dots">...</span><span id="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem
+            egestas vitae scel erisque enim ligula venenatis dolor. Maecenas nisl est,
+            ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum
+            nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec
+            vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+            tempor porta.</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <div class="box-beli-wrapper">
+            <div class="box-beli">
+                <h1>Atur jumlah dan Catatan</h1>
+                <div class="stokBarang">
+                    <div class="stock-wrapper">
+                        <span class="minus">-</span>
+                        <span class="num">01</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="jumlah-stock">
+                        <h2>Total Stock : 100</h2>
+                    </div>
+                </div>
+                <div class="subtotal">
+                    <h1>Subtotal: $</h1>
+                    <span class="total">191.00</span>
+                </div>
+                <div class="action-belanja">
+                    <button onclick="" id="tambahKeranjang">Tambahkan ke Keranjang</button>
+                    <button onclick="" id="belilangsung">Langsung beli</button>
+
+                </div>
+                <div class="cws">
+                    <!-- chat wishlist share -->
+                    <ul>
+                        <a href=""><li><i class='far fa-comments'></i> Chat</li></a>
+                        <a href=""><li>Wishlist</li></a>
+                        <a href=""><li>Share</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="garis-pembatas"></div>
+
+    <script src="JS/incrementButton.js"></script>
+    <script src="JS/readMore.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+@font-face {
+    font-family: myfont;
+    src: url(/assets/genshin-font.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 249, 222);
+}
+
+.hisPos{
+    margin-top: 1vh;
+    width: 100%;
+    height: max-content;
+    /* background-color: red; */
+    
+}
+
+.hisPos ul{
+    display: flex;
+    padding-left: 5vw;
+    width: 25%;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+    list-style: none;
+    
+}
+
+.hisPos a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.productAndBuy{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+}
+
+.product-image{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    /* background-color: red; */
+}
+
+.product-image-box{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    border-radius: 25px;
+
+}
+.product-image-box img{
+    width: 90%;
+    height: max-content;
+    
+
+
+}
+
+.product-desc{
+    width: 40%;
+    /* background-color: pink; */
+}
+.product-desc h1{
+    padding: 5%;
+}
+.product-desc p{
+    padding: 5%;
+    height: max-content;
+}
+.product-desc #more {
+    display: none;
+}
+
+
+#myBtn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 5%;
+}
+
+#myBtn:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.box-beli-wrapper{
+    /* display: flex;  */
+    width: 30%;
+    padding: 20px;
+    /* background-color: black; */
+}
+.box-beli{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.box-beli h1{
+    display: flex;
+    justify-content: center;
+}
+.stokBarang{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 10px;
+
+}
+.stokBarang .jumlah-stock{
+
+}
+
+.stock-wrapper{
+    height: max-content;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.stock-wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+.stock-wrapper span.num{
+    font-size: 1em;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+  pointer-events: none;
+}
+
+.stokBarang .jumlah-stock h2{
+    display: flex;
+    justify-content: end;
+
+}
+
+.subtotal{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.subtotal .total{
+    font-size: 2em;
+}
+
+.action-belanja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+}
+.action-belanja button{
+    width: 60%;
+    margin: 5px;
+}
+
+#tambahKeranjang{
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+#tambahKeranjang:hover{
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+#tambahKeranjang:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+#tambahKeranjang:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+#belilangsung{
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #cbcbcb;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+#belilangsung:hover{
+    background-color: #606060;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+#belilangsung:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+#belilangsung:hover {
+    box-shadow: rgba(173, 173, 173, 0.2) 0 6px 12px;
+}
+
+.cws{
+    display: flex;
+    justify-content: center;
+    
+    width: 80%;
+}
