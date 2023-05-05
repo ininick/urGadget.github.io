@@ -131,6 +131,7 @@ body{
     background-color: rgb(210, 210, 210);
     border-radius: 20px;
     text-align: center;
+    cursor: pointer; 
 }
 .select-all{
     display: flex;
@@ -172,10 +173,12 @@ body{
 #selectall-delete{
     margin-left: 280px;
     color: red;
+    cursor: pointer;
 }
 .buy-btn{
     width: 100%;
     padding: 10px;
+    cursor: pointer;
 }
 .product{
     display: flex;
@@ -230,6 +233,7 @@ body{
 	width: 20%;
 	padding: 20px 25px;
 	height: max-content;
+    cursor: pointer;
 	/* padding: 20px; */
 	/* margin: 0px 25px; */
 }
